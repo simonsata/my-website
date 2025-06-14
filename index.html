@@ -1,1 +1,34 @@
-<!DOCTYPE html><html><body><h1>Hello GitHub</h1></body></html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>自己紹介サイト</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="fade-in">
+    <h1>サイモンのポートフォリオ</h1>
+    <p>ようこそ！私の自己紹介ページへ</p>
+    <a href="#about" class="glow-button">もっと見る</a>
+  </header>
+
+  <section id="about" class="slide-in">
+    <h2>自己紹介</h2>
+    <p>こんにちは！趣味はプログラミングと読書です。</p>
+  </section>
+
+  <section id="gallery">
+    <h2>ギャラリー</h2>
+    <img id="gallery-image" src="https://placehold.co/400x200?text=Image+1" alt="ギャラリー画像" />
+    <br />
+    <button onclick="changeImage()">画像を切り替え</button>
+  </section>
+
+  <footer>
+    <p>現在時刻: <span id="clock"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
